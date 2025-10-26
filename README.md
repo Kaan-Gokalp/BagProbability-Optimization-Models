@@ -8,8 +8,8 @@ The article mathematically and experimentally demonstrates why **internal optima
 
 ## 📄 Article Information
 
-**Article Title:** Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation
-**Author:** Kaan Gökalp 
+**Article Title:** Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation  
+**Author:** Kaan Gökalp  
 **Status:** Preprint available on *arXiv (coming soon)*  
 **Field:** Applied Probability, Optimization Theory, Mathematical Modeling  
 
@@ -39,8 +39,8 @@ The article mathematically and experimentally demonstrates why **internal optima
 ## ⚙️ Running Instructions
 Clone the repository:
 ```bash
-   git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
-   cd BagProbability-Optimization-Models
+git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
+cd BagProbability-Optimization-Models
   ```
 Install the required dependencies:
 ```bash
@@ -53,21 +53,21 @@ python model3/model3_lagrange_solver.py
 All graphs and outputs will be automatically saved to the /results/ folder.
 
 ## 🧪 Experimental Outputs
-The code reproduces all figures presented in the paper:
-**Model 1**: Probability change along the boundary (monotonic analysis)
-**Model 2**: Limit histograms in asymmetric cases
-**Model 3**: Realization of the global optimum under AM–GM conditions (heatmap)
-**Supplementary Material**: Hessian signature analysis, gap bound verifications
+The code reproduces all figures presented in the paper:  
+**Model 1**: Probability change along the boundary (monotonic analysis)  
+**Model 2**: Limit histograms in asymmetric cases  
+**Model 3**: Realization of the global optimum under AM–GM conditions (heatmap)  
+**Supplementary Material**: Hessian signature analysis, gap bound verifications  
 
 ## 📘 Citation
-If you use this work, please cite it as follows:
+If you use this work, please cite it as follows:  
 ```
 Kaan Gökalp, Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation, arXiv:xxxx.xxxxx (2025).
 ```
 ## 📜 License
-MIT License © 2025 Kaan Gökalp
+MIT License © 2025 Kaan Gökalp  
 The code is freely available for academic research and educational purposes only.
 
 ## 📧 Contact
-For questions, comments, or contributions:
+For questions, comments, or contributions:  
 📩 kaangokalp6@gmail.com
