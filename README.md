@@ -17,19 +17,19 @@ The article mathematically and experimentally demonstrates why **internal optima
 
 ## 📁 Repository Structure
 ```bash
-├── model1_analysis/
+├── model1/
 │ ├── model1_boundary_plots.py # Model 1: Boundary behavior simulations
 │ ├── model1_results.png # Output plots for Model 1
 │
-├── model2_asymmetric/
+├── model2/
 │ ├── model2_limit_simulation.py # Model 2: Asymmetric case limit analysis
 │ ├── model2_results.png
 │
-├── model3_waterfilling/
+├── model3/
 │ ├── model3_lagrange_solver.py # Model 3: Lagrange solution and heatmap
 │ ├── model3_heatmap.png
 │
-├── appendix/
+├── supplementary/
 │ ├── appendix_hessian_example.py # Appendix A: Tangent-space Hessian example
 │ ├── appendix_gap_bound_check.py # Appendix C: Gap bound computation
 │
