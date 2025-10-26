@@ -36,45 +36,43 @@ The article mathematically and experimentally demonstrates why **internal optima
 ├── Supplementary_Material.pdf # Additional proofs and derivations
 └── requirements.txt # Python dependencies
 ```
-## ⚙️ Çalıştırma Talimatları
-Depoyu klonlayın:
+## ⚙️ Running Instructions
+Clone the repository:
 ```bash
    git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
    cd BagProbability-Optimization-Models
   ```
-Gerekli bağımlılıkları yükleyin:
+Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Örnek bir deney çalıştırın:
+Run a sample experiment:
 ```bash
 python model3/model3_lagrange_solver.py
 ```
-Tüm grafikler ve çıktılar /results/ klasörüne otomatik olarak kaydedilecektir.
+All graphs and outputs will be automatically saved to the /results/ folder.
 
-## 🧪 Deneysel Çıktılar
-Kodlar, makalede sunulan tüm şekillerin yeniden üretimini sağlar:
+## 🧪 Experimental Outputs
+The code reproduces all figures presented in the paper:
 
-Model 1: Sınır boyunca olasılık değişimi (monoton analiz)
+Model 1: Probability change along the boundary (monotonic analysis)
 
-Model 2: Asimetrik durumda limit histogramları
+Model 2: Limit histograms in asymmetric cases
 
-Model 3: Global optimumun AM–GM koşulları altında gerçekleşmesi (heatmap)
+Model 3: Realization of the global optimum under AM–GM conditions (heatmap)
 
-Ekler: Hessian imza analizi, gap bound doğrulamaları
+Appendices: Hessian signature analysis, gap bound verifications
 
-## 📘 Atıf (Citation)
-Bu çalışmayı kullanıyorsanız lütfen aşağıdaki şekilde atıf yapın:
+## 📘 Citation
+If you use this work, please cite it as follows:
 
-[Ad Soyad], Boundary-Dominant Optimization in Discrete Probabilistic Allocation Models, arXiv:xxxx.xxxxx (2025).
+Kaan Gökalp, Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation, arXiv:xxxx.xxxxx (2025).
 
-## 📜 Lisans
-MIT Lisansı © 2025 [Ad Soyad]
-Kodlar, yalnızca akademik araştırma ve eğitim amacıyla serbestçe kullanılabilir.
+## 📜 License
+MIT License © 2025 Kaan Gökalp
+The code is freely available for academic research and educational purposes only.
 
-##📧 İletişim
-Sorular, yorumlar veya katkılar için:
-📩 [e-posta adresin]
-🌐 [opsiyonel: kişisel web sitesi veya LinkedIn profili]
-
-```
+## 📧 Contact
+For questions, comments, or contributions:
+📩 kaangokalp6@gmail.com
+🌐 
