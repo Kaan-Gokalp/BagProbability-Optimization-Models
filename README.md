@@ -16,7 +16,7 @@ The article mathematically and experimentally demonstrates why **internal optima
 ---
 
 ## 📁 Repository Structure
-│
+```bash
 ├── model1_analysis/
 │ ├── model1_boundary_plots.py # Model 1: Boundary behavior simulations
 │ ├── model1_results.png # Output plots for Model 1
@@ -36,3 +36,4 @@ The article mathematically and experimentally demonstrates why **internal optima
 ├── Makale.pdf # Main article
 ├── Supplementary_Material.pdf # Additional proofs and derivations
 └── requirements.txt # Python dependencies
+```
