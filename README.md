@@ -32,10 +32,12 @@ The article mathematically and experimentally demonstrates why **internal optima
 ├── supplementary/
 │ ├── appendix_hessian_example.py # Appendix A: Tangent-space Hessian example
 │ ├── appendix_gap_bound_check.py # Appendix C: Gap bound computation
+├── Makale.pdf # Main article
+├── Supplementary_Material.pdf # Additional proofs and derivations
+└── requirements.txt # Python dependencies
 ```
 ## ⚙️ Çalıştırma Talimatları
-
-1. Depoyu klonlayın:
+Depoyu klonlayın:
 ```bash
    git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
    cd BagProbability-Optimization-Models
@@ -50,7 +52,7 @@ python model3/model3_lagrange_solver.py
 ```
 Tüm grafikler ve çıktılar /results/ klasörüne otomatik olarak kaydedilecektir.
 
-##🧪 Deneysel Çıktılar
+## 🧪 Deneysel Çıktılar
 Kodlar, makalede sunulan tüm şekillerin yeniden üretimini sağlar:
 
 Model 1: Sınır boyunca olasılık değişimi (monoton analiz)
@@ -61,12 +63,12 @@ Model 3: Global optimumun AM–GM koşulları altında gerçekleşmesi (heatmap)
 
 Ekler: Hessian imza analizi, gap bound doğrulamaları
 
-##📘 Atıf (Citation)
+## 📘 Atıf (Citation)
 Bu çalışmayı kullanıyorsanız lütfen aşağıdaki şekilde atıf yapın:
 
 [Ad Soyad], Boundary-Dominant Optimization in Discrete Probabilistic Allocation Models, arXiv:xxxx.xxxxx (2025).
 
-##📜 Lisans
+## 📜 Lisans
 MIT Lisansı © 2025 [Ad Soyad]
 Kodlar, yalnızca akademik araştırma ve eğitim amacıyla serbestçe kullanılabilir.
 
@@ -74,8 +76,5 @@ Kodlar, yalnızca akademik araştırma ve eğitim amacıyla serbestçe kullanıl
 Sorular, yorumlar veya katkılar için:
 📩 [e-posta adresin]
 🌐 [opsiyonel: kişisel web sitesi veya LinkedIn profili]
-│
-├── Makale.pdf # Main article
-├── Supplementary_Material.pdf # Additional proofs and derivations
-└── requirements.txt # Python dependencies
+
 ```
