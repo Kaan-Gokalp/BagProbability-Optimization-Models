@@ -54,20 +54,16 @@ All graphs and outputs will be automatically saved to the /results/ folder.
 
 ## 🧪 Experimental Outputs
 The code reproduces all figures presented in the paper:
-
-Model 1: Probability change along the boundary (monotonic analysis)
-
-Model 2: Limit histograms in asymmetric cases
-
-Model 3: Realization of the global optimum under AM–GM conditions (heatmap)
-
-Appendices: Hessian signature analysis, gap bound verifications
+**Model 1**: Probability change along the boundary (monotonic analysis)
+**Model 2**: Limit histograms in asymmetric cases
+**Model 3**: Realization of the global optimum under AM–GM conditions (heatmap)
+**Supplementary Material**: Hessian signature analysis, gap bound verifications
 
 ## 📘 Citation
 If you use this work, please cite it as follows:
-
+```
 Kaan Gökalp, Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation, arXiv:xxxx.xxxxx (2025).
-
+```
 ## 📜 License
 MIT License © 2025 Kaan Gökalp
 The code is freely available for academic research and educational purposes only.
@@ -75,4 +71,3 @@ The code is freely available for academic research and educational purposes only
 ## 📧 Contact
 For questions, comments, or contributions:
 📩 kaangokalp6@gmail.com
-🌐 
