@@ -39,7 +39,7 @@ The article mathematically and experimentally demonstrates why **internal optima
 ## ⚙️ Running Instructions
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
+git clone https://github.com/Kaan-Gokalp/BagProbability-Optimization-Models.git
 cd BagProbability-Optimization-Models
   ```
 Install the required dependencies:
