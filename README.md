@@ -18,28 +18,37 @@ The article mathematically and experimentally demonstrates why **internal optima
 ## 📁 Repository Structure
 ```bash
 ├── model1/
-│ ├── model1_boundary_plots.py # Model 1: Boundary behavior simulations
-│ ├── model1_results.png # Output plots for Model 1
+│ ├── model1_boundary_curves.py # Model 1 - Boundary curves for x = b and x = b + 5. The plot shows the variation of probability P along both limits.
+│ ├── model1_results.png # Output
 │
 ├── model2/
-│ ├── model2_limit_simulation.py # Model 2: Asymmetric case limit analysis
-│ ├── model2_results.png
+│ ├── model2_histogram.py # Model 2 - Distribution of all (b, x) configurations for example parameters m = 6, n = 4.
+│ ├── model2_results.png # Output
 │
 ├── model3/
-│ ├── model3_lagrange_solver.py # Model 3: Lagrange solution and heatmap
-│ ├── model3_heatmap.png
+│ ├── model3_figures.py # Model 3 - Distribution of P across all feasible configurations for m = 15, T = 30, k = 3, Standard deviation of the ratios {bi/xi}, Interior vs boundary configuration.
+│ ├── model3_histogram.png # Output
+│ ├── model3_stddev.png # Output
+│ ├── model3_configuration.png # Output
+│ ├── model3_heatmap.py # Model 3 -  Parametric heatmap of maximal P over k ∈ {2, 3, 4} and m/T ∈ [0.1, 0.8] (with T = 30).
+│ ├── model3_heatmap.png # Output
+│ ├── model3_water-filling.py # Visualization of the water-filling algorithm
+│ ├── model3_water-filling.png # Output
 │
 ├── supplementary/
-│ ├── appendix_hessian_example.py # Appendix A: Tangent-space Hessian example
-│ ├── appendix_gap_bound_check.py # Appendix C: Gap bound computation
-├── Makale.pdf # Main article
+│ ├── supplementary_s5_numerical_validation.py # S.5 Numerical Validation - Heatmap of success function P
+│ ├── supplementary_s5_numerical_validation.png # Output
+│ ├── supplementary_s7.7&s8.4.py # S.7.7 Heatmap of discrete feasible configurations for k=3, m=9, T=30 and S.8.4 Comparison between continuous and discrete optima
+│ ├── supplementary_s7.7_heatmap.png # Output
+│ ├── supplementary_s8.4_table.csv # Output
+├── Boundary_Dominant_Optimization_Kaan_Gokalpp.pdf # Main article
 ├── Supplementary_Material.pdf # Additional proofs and derivations
 └── requirements.txt # Python dependencies
 ```
 ## ⚙️ Running Instructions
 Clone the repository:
 ```bash
-git clone https://github.com/Kaan-Gokalp/BagProbability-Optimization-Models.git
+git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
 cd BagProbability-Optimization-Models
   ```
 Install the required dependencies:
@@ -48,7 +57,7 @@ pip install -r requirements.txt
 ```
 Run a sample experiment:
 ```bash
-python model3/model3_lagrange_solver.py
+python model2/model2_histogram.py
 ```
 All graphs and outputs will be automatically saved to the /results/ folder.
 
