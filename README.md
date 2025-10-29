@@ -43,6 +43,7 @@ The article mathematically and experimentally demonstrates why **internal optima
 │ ├── supplementary_s8.4_table.csv # Output
 ├── Boundary_Dominant_Optimization_Kaan_Gokalp.pdf # Main article
 ├── Supplementary_Material.pdf # Additional proofs and derivations
+├── LICENSE
 └── requirements.txt # Python dependencies
 ```
 ## ⚙️ Running Instructions
