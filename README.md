@@ -1,4 +1,4 @@
-# Boundary-Dominant Probability Optimization Models
+# Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation
 
 This repository contains the Python source code, experimental simulations, and numerical verifications used in the paper titled **“Boundary-Dominant Optimization in Discrete Probabilistic Allocation Models”**.
 
@@ -10,7 +10,7 @@ The article mathematically and experimentally demonstrates why **internal optima
 
 **Article Title:** Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation  
 **Author:** Kaan Gökalp  
-**Status:** Preprint available on *arXiv (coming soon)*  
+**Status:** Preprint (submitted to *Entropy*, 2025)
 **Field:** Applied Probability, Optimization Theory, Mathematical Modeling  
 
 ---
@@ -41,14 +41,14 @@ The article mathematically and experimentally demonstrates why **internal optima
 │ ├── supplementary_s7.7&s8.4.py # S.7.7 Heatmap of discrete feasible configurations for k=3, m=9, T=30 and S.8.4 Comparison between continuous and discrete optima
 │ ├── supplementary_s7.7_heatmap.png # Output
 │ ├── supplementary_s8.4_table.csv # Output
-├── Boundary_Dominant_Optimization_Kaan_Gokalpp.pdf # Main article
+├── Boundary_Dominant_Optimization_Kaan_Gokalp.pdf # Main article
 ├── Supplementary_Material.pdf # Additional proofs and derivations
 └── requirements.txt # Python dependencies
 ```
 ## ⚙️ Running Instructions
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/BagProbability-Optimization-Models.git
+git clone https://github.com/Kaan-Gokalp/BagProbability-Optimization-Models.git
 cd BagProbability-Optimization-Models
   ```
 Install the required dependencies:
@@ -71,11 +71,10 @@ The code reproduces all figures presented in the paper:
 ## 📘 Citation
 If you use this work, please cite it as follows:  
 ```
-Kaan Gökalp, Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation, arXiv:xxxx.xxxxx (2025).
+Gökalp, K. (2025). *Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation* [Software]. Zenodo. https://doi.org/10.xxxx/zenodo.xxxxxx
 ```
 ## 📜 License
 MIT License © 2025 Kaan Gökalp  
-The code is freely available for academic research and educational purposes only.
 
 ## 📧 Contact
 For questions, comments, or contributions:  
