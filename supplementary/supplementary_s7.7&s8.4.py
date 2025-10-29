@@ -71,7 +71,7 @@ rows = []
 for (k, m, T) in example_table:
     P_cont = (m / T) ** k
     best_P, best_configs = best_discrete_product(k, m, T)
-    bound = exp((k**2 / 2.0) * (1.0 / m + 1.0 / T))
+    bound = exp((k / 2.0) * (1.0 / m + 1.0 / T))
     rep = best_configs[0] if best_configs else None
     rows.append((k, m, T, P_cont, best_P, bound, rep))
 
@@ -104,3 +104,4 @@ plt.title(f'Figure S2: k={k}, m={m}, T={T} — P values')
 plt.tight_layout()
 plt.savefig('figure_S1_k3_m9_T30.png', dpi=300)
 plt.close()
+
