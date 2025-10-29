@@ -155,7 +155,7 @@ def sweep_and_plot(ks, ratios, T, nproc=1, outpath='heatmap_model3.png'):
     plt.ylabel('k (number of boxes)')
     plt.title(f'Parametric heatmap: T={T}, nproc={nproc}')
     plt.tight_layout()
-    plt.savefig(outpath, dpi=200)
+    plt.savefig(outpath, dpi=300)
     plt.close()
     return heat, runtime_stats
 
