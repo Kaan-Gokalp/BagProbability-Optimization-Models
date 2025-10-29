@@ -72,7 +72,7 @@ The code reproduces all figures presented in the paper:
 ## 📘 Citation
 If you use this work, please cite it as follows:  
 ```
-Gökalp, K. (2025). *Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation* [Software]. Zenodo. https://doi.org/10.5281/zenodo.17474108
+Gökalp, K. (2025). *Boundary-Dominant Optimization: A Closed-Form Framework for Efficient Resource Allocation* [Software]. Zenodo. https://doi.org/10.5281/zenodo.17476916
 ```
 ## 📜 License
 MIT License © 2025 Kaan Gökalp  
