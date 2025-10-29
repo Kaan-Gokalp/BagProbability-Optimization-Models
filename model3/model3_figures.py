@@ -1,20 +1,20 @@
 # Model 3 - Exhaustive first-scan simulation (k = 3)
-# Gereksinimler: numpy, pandas, matplotlib
+# Requirements: numpy, pandas, matplotlib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Parametreler
-m = 15   # toplam beyaz top
-T = 30   # toplam top
-k = 3    # kutu sayısı (bu script k=3 için exhaustive tarama yapar)
+# Parameters
+m = 15   # total white balls
+T = 30   # total balls
+k = 3    # bag count (This script performs exhaustive scanning for k=3)
 
 records = []
-# x1,x2,x3 >=1 ve x1+x2+x3 = T (k=3 için)
+# x1,x2,x3 >=1 and x1+x2+x3 = T (for k=3)
 for x1 in range(1, T-1):
     for x2 in range(1, T-x1):
         x3 = T - x1 - x2
-        # b_i için alt-üst sınırlar (0 <= b_i <= x_i) ve sum(b)=m
+        # Lower-upper bounds for b_i (0 <= b_i <= x_i) and sum(b)=m
         b1_min = max(0, m - (x2 + x3))
         b1_max = min(x1, m)
         for b1 in range(b1_min, b1_max + 1):
@@ -37,7 +37,7 @@ for x1 in range(1, T-1):
 cols = ["x1","x2","x3","b1","b2","b3","r1","r2","r3","ratio_mean","ratio_std","P","interior","any_b_eq_x","any_b_eq0"]
 df = pd.DataFrame(records, columns=cols)
 
-# Özet istatistikler
+# Summary statistics
 summary = {
     "total_configurations": len(df),
     "P_min": df["P"].min(),
@@ -47,7 +47,7 @@ summary = {
 }
 print("Summary:", summary)
 
-# En iyi konfigürasyonlar
+# Best configurations
 top20 = df.sort_values("P", ascending=False).head(20)
 print("\nTop 20 (highest P) values:")
 print(top20[["b1","b2","b3","x1","x2","x3","r1","r2","r3","P","interior","any_b_eq_x"]].to_string(index=False))
@@ -61,7 +61,7 @@ plt.title(f"Model 3: Distribution of the Success Function (m={m}, T={T}, k={k})"
 plt.savefig('model3_histogram.png', dpi=300)
 plt.show()
 
-# Plot 2: ratio stddev vs P (AM-GM'ye dair görsel kanıt)
+# Plot 2: ratio stddev vs P (Visual evidence of AM-GM)
 plt.figure(figsize=(8,6))
 plt.scatter(df["ratio_std"], df["P"], s=8)
 plt.xlabel("Ratios StdDev (std of b_i/x_i)")
@@ -78,3 +78,4 @@ plt.ylabel("Number of Configurations")
 plt.title("Interior vs Boundary Configuration Numbers")
 plt.savefig('model3_configuration.png', dpi=300)
 plt.show()
+
