@@ -3,6 +3,7 @@ import numpy as np
 from math import exp
 import matplotlib.pyplot as plt
 import csv
+import itertools
 
 # --- utility: partitions of n into k positive integers ---
 def partitions_of_n_into_k(n, k):
@@ -104,4 +105,5 @@ plt.title(f'Figure S2: k={k}, m={m}, T={T} — P values')
 plt.tight_layout()
 plt.savefig('figure_S1_k3_m9_T30.png', dpi=300)
 plt.close()
+
 
